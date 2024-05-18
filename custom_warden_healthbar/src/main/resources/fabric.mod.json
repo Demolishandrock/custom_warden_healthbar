@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_warden_healthbar",
+  "version": "${version}",
+  "name": "Custom Warden Health Bar",
+  "description": "A mod that customizes the Warden's health bar.",
+  "authors": ["Jaden Craft"],
+  "contact": {
+    "sources": "https://github.com/Demolishandrock/custom_warden_healthbar"
+  },
+  "license": "MIT",
+  "icon": "assets/custom_warden_healthbar/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.customwardenhealthbar.CustomWardenHealthBar"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": "1.20.6",
+    "fabric": "*"
+  }
+}
